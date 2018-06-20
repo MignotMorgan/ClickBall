@@ -1,0 +1,24 @@
+.section--click{
+    border: 1px solid black;
+    .header--click{
+        border: 1px solid black;
+        text-align: center;
+    }
+    .main--click{
+        border: 1px solid black;
+        
+        .canvas--click{
+            // width: 500px;
+            // height: 500px;
+            border: 1px solid black;
+        }
+
+        .div--score{
+            border: 1px solid black;            
+        }
+    }
+    .footer--click{
+        border: 1px solid black;
+        
+    }
+}

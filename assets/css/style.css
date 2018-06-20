@@ -1,0 +1,25 @@
+.section--click {
+  border: 1px solid black;
+}
+
+.section--click .header--click {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.section--click .main--click {
+  border: 1px solid black;
+}
+
+.section--click .main--click .canvas--click {
+  border: 1px solid black;
+}
+
+.section--click .main--click .div--score {
+  border: 1px solid black;
+}
+
+.section--click .footer--click {
+  border: 1px solid black;
+}
+/*# sourceMappingURL=style.css.map */
