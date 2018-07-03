@@ -1,12 +1,12 @@
 /**évènements du canvas */
-/**Déplacement de la souris dans le canvas */
+/**Déplacement de la souris dans le canvas. */
 const canvasMove = (e) => 
 {
     mouse.position = canvas.getBoundingClientRect();
     mouse.x = e.clientX-mouse.position.left;
     mouse.y = e.clientY-mouse.position.top;
 }
-
+/**click de la souris sur le canvas. */
 const canvasClick = () =>
 {
     let value = game_levelers.current.score();
@@ -56,7 +56,7 @@ const canvasLoop = () =>
             game_Bonus = null;
     }
 }
-
+/**barre d'énergie sur le bord droit. */
 const recShadow = () => 
 {
     let height = 0;
@@ -74,7 +74,7 @@ const recShadow = () =>
     }
     ctx.fillRect(rec_shadow.x, rec_shadow.y+(rec_shadow.height-height), rec_shadow.width, height);
 }
-
+/**rafraîchissement du canvas */
 const gameRefresh = () =>
 {
     try 
